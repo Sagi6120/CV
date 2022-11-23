@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(201, 166, 166);
+/*font-size: 16px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;*/
+font:bold 16px Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+.main_picture {
+    width: 200px; border-radius: 28px;  box-shadow: 14px 14px 14px rgb(0, 0, 0); 
+}
+
+
+
+.info h3 {
+    color: blue; margin: 10px; 
+}
+
+.conteiner {
+max-width: 750px; margin: auto;
+}
+
+a{
+    text-decoration: none;
+} 
+
+
+
+.marge_text li {
+    margin: 10px;
+}
+
+.skills h5 {
+  color: rgb(20, 53, 243);  
+}
+
+/*BOX MODEL*/
+
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.bg-gray{
+    background: #e9e3e3;
+}
+.bg-white{
+    background: #f7ecec;
+}
+
+.card {
+padding: 15px 20px;
+/*background: rgb(226, 224, 221);*/
+margin-bottom: 20px;
+border-radius: 20px;
+}
