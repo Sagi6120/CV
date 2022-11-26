@@ -18,6 +18,13 @@ h1 {
     color: blue; margin: 10px; 
 }
 
+@media (max-width: 700px){
+.info {
+    text-align: center; 
+    display: block;
+}
+}
+
 .conteiner {
 max-width: 750px; margin: auto;
 }
@@ -39,16 +46,16 @@ a{
 /*BOX MODEL*/
 
 .bg-yellow{
-    background: #fff9dc;
+    background: #faeebf;
 }
 .bg-green{
-    background: #e5ffe7;
+    background: #b7bdb8; 
 }
 .bg-red{
-    background: #ffe5e5;
+    background: #e4abab;
 }
 .bg-gray{
-    background: #e9e3e3;
+    background: #dfb3b3;
 }
 .bg-white{
     background: #f7ecec;
@@ -60,3 +67,138 @@ padding: 15px 20px;
 margin-bottom: 20px;
 border-radius: 20px;
 }
+
+.name {
+    padding-left: 250px; margin-block-start: -55px; 
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+display: block; font-size: 14px; color: #000; 
+}
+
+.form-group input,
+.form-group textarea
+ {
+    width: 100%; box-sizing: border-box; border: none; border-bottom: 1px solid #000; 
+    background: transparent; color:rgb(0, 0, 0); padding: 15px 0 10px; outline: none; 
+    font-family: inherit; 
+ }
+
+ .row {
+ display: flex; margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%; margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+body {
+    background-color: rgb(201, 166, 166);
+/*font-size: 16px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;*/
+font:bold 16px Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+.main_picture {
+    width: 200px; border-radius: 28px;  box-shadow: 14px 14px 14px rgb(0, 0, 0); 
+}
+
+
+
+.info h3 {
+    color: blue; margin: 10px; 
+}
+
+@media (max-width: 700px){
+.info {
+    text-align: center; 
+    display: block;
+}
+}
+
+.conteiner {
+max-width: 750px; margin: auto;
+}
+
+a{
+    text-decoration: none;
+} 
+
+
+
+.marge_text li {
+    margin: 10px;
+}
+
+.skills h5 {
+  color: rgb(20, 53, 243);  
+}
+
+/*BOX MODEL*/
+
+.bg-yellow{
+    background: #faeebf;
+}
+.bg-green{
+    background: #b7bdb8; 
+}
+.bg-red{
+    background: #e4abab;
+}
+.bg-gray{
+    background: #dfb3b3;
+}
+.bg-white{
+    background: #f7ecec;
+}
+
+.card {
+padding: 15px 20px;
+/*background: rgb(226, 224, 221);*/
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+.name {
+    padding-left: 250px; margin-block-start: -55px; 
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+display: block; font-size: 14px; color: #000; 
+}
+
+.form-group input,
+.form-group textarea
+ {
+    width: 100%; box-sizing: border-box; border: none; border-bottom: 1px solid #000; 
+    background: transparent; color:rgb(0, 0, 0); padding: 15px 0 10px; outline: none; 
+    font-family: inherit; 
+ }
+
+ .row {
+ display: flex; margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%; margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
