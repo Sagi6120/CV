@@ -88,21 +88,29 @@
         <!-- Contact Form -->
         <h2>Contact Me</h2>
         <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Access Key for Authorization -->
             <input type="hidden" name="access_key" value="ab341f57-0abc-4a99-9602-ccaf7bb12901">
+
             <div class="row">
+                <!-- Name Field -->
                 <div class="form-group">
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" placeholder="Full Name" required>
                 </div>
+                <!-- Email Field -->
                 <div class="form-group">
                     <label for="email">Your Email:</label>
                     <input type="email" id="email" name="email" placeholder="Email" required>
                 </div>
             </div>
+
+            <!-- Message Field -->
             <div class="form-group">
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" placeholder="Your Message" required></textarea>
             </div>
+
+            <!-- Submit Button -->
             <input type="submit" value="SEND">
         </form>
     </div>
