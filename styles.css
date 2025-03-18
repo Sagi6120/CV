@@ -1,128 +1,204 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
 body {
-    background-color: #c9a6a6;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
+    background-color: rgb(201, 166, 166);
+/*font-size: 16px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;*/
+font:bold 16px Arial, Helvetica, sans-serif;
 }
-
-/* Main Layout */
-.container {
-    max-width: 750px;
-    margin: auto;
-    padding: 20px;
+h1 {
+    font-size: 40px;
 }
-
-/* Profile Picture */
 .main_picture {
-    width: 200px;
-    border-radius: 28px;
-    display: block;
-    margin: 20px auto;
-    box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.2);
+    width: 200px; border-radius: 28px;  box-shadow: 14px 14px 14px rgb(0, 0, 0); 
 }
 
-/* Titles and Headings */
-.name {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 15px;
-}
 
-h2, h3 {
-    color: #333;
-    margin: 15px 0 10px;
-}
 
-/* Information Section */
 .info h3 {
-    text-align: center;
-    font-size: 14px;
-    color: #333;
+    color: blue; margin: 10px; 
 }
 
-/* Responsive Center Alignment */
-@media (max-width: 700px) {
-    .info h3 {
-        text-align: center;
-    }
+@media (max-width: 700px){
+.info {
+    text-align: center; 
+    display: block;
+}
 }
 
-/* List Styling */
-.marge_text, .skills, .languages, .experience ul {
-    list-style-type: none;
-    padding-left: 20px;
-    line-height: 1.6;
+.conteiner {
+max-width: 750px; margin: auto;
 }
 
-.skills, .languages {
-    color: #1435F3;
-    font-weight: bold;
+a{
+    text-decoration: none;
+} 
+
+
+
+.marge_text li {
+    margin: 10px;
 }
 
-/* Contact Form Styling */
+.skills h5 {
+  color: rgb(20, 53, 243);  
+}
+
+/*BOX MODEL*/
+
+.bg-yellow{
+    background: #faeebf;
+}
+.bg-green{
+    background: #b7bdb8; 
+}
+.bg-red{
+    background: #e4abab;
+}
+.bg-gray{
+    background: #dfb3b3;
+}
+.bg-white{
+    background: #f7ecec;
+}
+
+.card {
+padding: 15px 20px;
+/*background: rgb(226, 224, 221);*/
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+.name {
+    padding-left: 250px; margin-block-start: -55px; 
+}
+
 .contact h2 {
-    text-align: center;
+text-align: center;
 }
 
 .form-group label {
-    font-size: 14px;
-    color: #333;
+display: block; font-size: 14px; color: #000; 
 }
 
 .form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 8px;
-    border: none;
-    border-bottom: 1px solid #333;
-    background: transparent;
-    color: #333;
-    outline: none;
+.form-group textarea
+ {
+    width: 100%; box-sizing: border-box; border: none; border-bottom: 1px solid #000; 
+    background: transparent; color:rgb(0, 0, 0); padding: 15px 0 10px; outline: none; 
+    font-family: inherit; 
+ }
+
+ .row {
+ display: flex; margin-bottom: 20px;
 }
 
-/* Row Layout for Form Fields */
-.row {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
+.row > .form-group {
+    width: 50%; margin-right: 20px;
 }
 
-.row .form-group {
-    flex: 1;
+.row > .form-group:last-child {
+    margin-right: 0;
 }
 
-/* Button Styling */
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+body {
+    background-color: rgb(201, 166, 166);
+/*font-size: 16px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;*/
+font:bold 16px Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+.main_picture {
+    width: 200px; border-radius: 28px;  box-shadow: 14px 14px 14px rgb(0, 0, 0); 
 }
 
-input[type="submit"]:hover {
-    background-color: #555;
+
+
+.info h3 {
+    color: blue; margin: 10px; 
 }
 
-/* Card Backgrounds */
+@media (max-width: 700px){
+.info {
+    text-align: center; 
+    display: block;
+}
+}
+
+.conteiner {
+max-width: 750px; margin: auto;
+}
+
+a{
+    text-decoration: none;
+} 
+
+
+
+.marge_text li {
+    margin: 10px;
+}
+
+.skills h5 {
+  color: rgb(20, 53, 243);  
+}
+
+/*BOX MODEL*/
+
+.bg-yellow{
+    background: #faeebf;
+}
+.bg-green{
+    background: #b7bdb8; 
+}
+.bg-red{
+    background: #e4abab;
+}
+.bg-gray{
+    background: #dfb3b3;
+}
+.bg-white{
+    background: #f7ecec;
+}
+
 .card {
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
+padding: 15px 20px;
+/*background: rgb(226, 224, 221);*/
+margin-bottom: 20px;
+border-radius: 20px;
 }
 
-.bg-gray { background-color: #e0e0e0; }
-.bg-green { background-color: #d9f7d9; }
-.bg-red { background-color: #f9d9d9; }
-.bg-yellow { background-color: #fff5cc; }
-.bg-white { background-color: #fff; }
+.name {
+    padding-left: 250px; margin-block-start: -55px; 
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+display: block; font-size: 14px; color: #000; 
+}
+
+.form-group input,
+.form-group textarea
+ {
+    width: 100%; box-sizing: border-box; border: none; border-bottom: 1px solid #000; 
+    background: transparent; color:rgb(0, 0, 0); padding: 15px 0 10px; outline: none; 
+    font-family: inherit; 
+ }
+
+ .row {
+ display: flex; margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%; margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
